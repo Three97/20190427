@@ -1,0 +1,13 @@
+<div>
+  <div>
+    <label for="selectCity">Select City</label>
+</div>
+  <select name="selectCity" [(ngModel)]="selectedLocation">
+    <option *ngFor="let location of locations" [ngValue]="location">
+      {{ location.name }}
+    </option>
+  </select>
+</div>
+<div>
+  <app-weather-details [selectedLocation]="selectedLocation"></app-weather-details>
+</div>

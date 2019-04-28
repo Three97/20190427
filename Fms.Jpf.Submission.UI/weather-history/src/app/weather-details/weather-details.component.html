@@ -1,0 +1,8 @@
+<div *ngIf="details">
+  <h2>Weather Details for July 4, 2018 @ {{ selectedLocation.name }}</h2>
+  <div>
+    <ul class="li"><b>Summary</b> {{ details.currently.summary }}</ul>
+    <ul class="li"><b>Temperature</b> {{ details.currently.temperature | number:'1.2-2' }} </ul>
+    <ul class="li"><b>UV Index</b> {{ details.currently.uvIndex | number:'1.2-2' }}</ul>
+  </div>
+</div>
