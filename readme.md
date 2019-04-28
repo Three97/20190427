@@ -28,6 +28,8 @@ This application uses a CORS workaround that is hosted [here][HerokuCorsAnywhere
 
 > **NOTE:** This project is not intended to be production mode. It's simply a proof of concept.
 
+_This code has been successfully tested on a Windows 10 Pro machine and a MacBook Pro._
+
 [DarkSky]: https://darksky.net/dev/docs
 [HerokuCorsAnywhere]: https://cors-anywhere.herokuapp.com/
 
