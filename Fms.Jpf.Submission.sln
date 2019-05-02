@@ -7,6 +7,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fms.Jpf.Submission.API", "F
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fms.Jpf.Submission.API.Tests", "Fms.Jpf.Submission.API.Tests\Fms.Jpf.Submission.API.Tests.csproj", "{41D6EE05-0511-41D5-83AD-2A03CA1A748D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fms.Jpf.Submission.Service", "Fms.Jpf.Submission.Service\Fms.Jpf.Submission.Service.csproj", "{BDA8B771-1556-4B01-812D-0564101B1222}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fms.Jpf.Submission.DAL", "Fms.Jpf.Submission.DAL\Fms.Jpf.Submission.DAL.csproj", "{5E431741-9AAC-4AD5-A3F5-B83813704687}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fms.Jpf.Submission.Service.Tests", "Fms.Jpf.Submission.Service.Tests\Fms.Jpf.Submission.Service.Tests.csproj", "{182A67A8-20DA-47BC-BFFC-31E1BAE730B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fms.Jpf.Submission.DAL.Tests", "Fms.Jpf.Submission.DAL.Tests\Fms.Jpf.Submission.DAL.Tests.csproj", "{DB3C6B15-2BDC-4914-AF68-BA6B82022189}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +29,22 @@ Global
 		{41D6EE05-0511-41D5-83AD-2A03CA1A748D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41D6EE05-0511-41D5-83AD-2A03CA1A748D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41D6EE05-0511-41D5-83AD-2A03CA1A748D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDA8B771-1556-4B01-812D-0564101B1222}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDA8B771-1556-4B01-812D-0564101B1222}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDA8B771-1556-4B01-812D-0564101B1222}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDA8B771-1556-4B01-812D-0564101B1222}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E431741-9AAC-4AD5-A3F5-B83813704687}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E431741-9AAC-4AD5-A3F5-B83813704687}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E431741-9AAC-4AD5-A3F5-B83813704687}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E431741-9AAC-4AD5-A3F5-B83813704687}.Release|Any CPU.Build.0 = Release|Any CPU
+		{182A67A8-20DA-47BC-BFFC-31E1BAE730B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{182A67A8-20DA-47BC-BFFC-31E1BAE730B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{182A67A8-20DA-47BC-BFFC-31E1BAE730B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{182A67A8-20DA-47BC-BFFC-31E1BAE730B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB3C6B15-2BDC-4914-AF68-BA6B82022189}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB3C6B15-2BDC-4914-AF68-BA6B82022189}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB3C6B15-2BDC-4914-AF68-BA6B82022189}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB3C6B15-2BDC-4914-AF68-BA6B82022189}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

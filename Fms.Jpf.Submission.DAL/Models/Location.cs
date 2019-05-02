@@ -1,4 +1,4 @@
-﻿namespace Fms.Jpf.Submission.Service.Types
+﻿namespace Fms.Jpf.Submission.DAL.Models
 {
     public class Location
     {

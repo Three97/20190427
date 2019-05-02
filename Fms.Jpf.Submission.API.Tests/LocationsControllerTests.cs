@@ -1,18 +1,29 @@
-using Fms.Jpf.Submission.API.Controllers;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Linq;
+using Fms.Jpf.Submission.API.Controllers;
+using Fms.Jpf.Submission.DAL.Contracts;
+using Fms.Jpf.Submission.DAL.Implementations;
+using Fms.Jpf.Submission.Service;
+using Fms.Jpf.Submission.Service.Contracts;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Fms.Jpf.Submissions.API.Tests
+namespace Fms.Jpf.Submission.API.Tests
 {
     [TestClass]
     public class LocationsControllerTests
     {
         private LocationsController _controller;
+        private ILocationService _locationService;
+        private ILocationRepository _locationRepository;
 
         [TestInitialize]
         public void Initialize()
         {
-            this._controller = new LocationsController();
+            // in this case, we can use the same repo for testing purposes..
+            this._locationRepository = new FakeLocationRepository();
+            // there's nothing special about the LocationService, so we can
+            // use it directly for our tests..
+            this._locationService = new LocationService(this._locationRepository);
+            this._controller = new LocationsController(this._locationService);
         }
 
         [TestMethod]

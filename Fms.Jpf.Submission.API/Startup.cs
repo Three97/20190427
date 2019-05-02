@@ -1,4 +1,8 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using Fms.Jpf.Submission.DAL.Contracts;
+using Fms.Jpf.Submission.DAL.Implementations;
+using Fms.Jpf.Submission.Service;
+using Fms.Jpf.Submission.Service.Contracts;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
@@ -29,6 +33,9 @@ namespace Fms.Jpf.Submission.API
                     builder => { builder.WithOrigins("http://localhost:4200"); }
                 );
             });
+
+            services.AddScoped<ILocationService, LocationService>();
+            services.AddScoped<ILocationRepository, FakeLocationRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
