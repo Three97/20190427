@@ -1,0 +1,162 @@
+{
+	"info": {
+		"_postman_id": "e100ff93-1148-43db-9bff-abc16b629230",
+		"name": "FMSystems_Tests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "DarkSky_20180704_Phoenix",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api.darksky.net/forecast/b34b6528869b3cb626f1038d184dea35/33.448376,-112.074036,2018-07-04T12:00:00?exclude=minutely,hourly,daily,alerts,flags",
+					"protocol": "https",
+					"host": [
+						"api",
+						"darksky",
+						"net"
+					],
+					"path": [
+						"forecast",
+						"b34b6528869b3cb626f1038d184dea35",
+						"33.448376,-112.074036,2018-07-04T12:00:00"
+					],
+					"query": [
+						{
+							"key": "exclude",
+							"value": "minutely,hourly,daily,alerts,flags"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DarkSky_20180704_Raleigh",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api.darksky.net/forecast/b34b6528869b3cb626f1038d184dea35/35.779591,-78.638176,2018-07-04T12:00:00?exclude=minutely,hourly,daily,alerts,flags",
+					"protocol": "https",
+					"host": [
+						"api",
+						"darksky",
+						"net"
+					],
+					"path": [
+						"forecast",
+						"b34b6528869b3cb626f1038d184dea35",
+						"35.779591,-78.638176,2018-07-04T12:00:00"
+					],
+					"query": [
+						{
+							"key": "exclude",
+							"value": "minutely,hourly,daily,alerts,flags"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DarkSky_20180704_SaintJohn",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api.darksky.net/forecast/b34b6528869b3cb626f1038d184dea35/45.272812,-66.063026,2018-07-04T12:00:00?exclude=minutely,hourly,daily,alerts,flags",
+					"protocol": "https",
+					"host": [
+						"api",
+						"darksky",
+						"net"
+					],
+					"path": [
+						"forecast",
+						"b34b6528869b3cb626f1038d184dea35",
+						"45.272812,-66.063026,2018-07-04T12:00:00"
+					],
+					"query": [
+						{
+							"key": "exclude",
+							"value": "minutely,hourly,daily,alerts,flags"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DarkSky_20180704_SanDiego",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api.darksky.net/forecast/b34b6528869b3cb626f1038d184dea35/32.715736,-117.161087,2018-07-04T12:00:00?exclude=minutely,hourly,daily,alerts,flags",
+					"protocol": "https",
+					"host": [
+						"api",
+						"darksky",
+						"net"
+					],
+					"path": [
+						"forecast",
+						"b34b6528869b3cb626f1038d184dea35",
+						"32.715736,-117.161087,2018-07-04T12:00:00"
+					],
+					"query": [
+						{
+							"key": "exclude",
+							"value": "minutely,hourly,daily,alerts,flags"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "LocationService",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:51836/api/locations/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "51836",
+					"path": [
+						"api",
+						"locations",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
