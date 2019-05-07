@@ -45,6 +45,10 @@ This application uses a CORS workaround that is hosted [here][HerokuCorsAnywhere
 I don't usually put the `//Arrange`, `//Act`, `//Assert` comments for all my unit tests. Generally speaking, I'll do something more like just put the arrange stuff together without blank lines, then a blank line between the sections. I think that separates them enough. For this exercise, I wanted to be explicit.    
 For the service and repository unit tests, I opted to use the `FakeLocationRepository` for some tests since it's useful for both unit testing and the actual task at hand. However, I did include an example of another instance of the `ILocationService` and `ILocationRepository` to show that the implementations of the interfaces is what drives behavior. I opted to use [Moq](https://github.com/moq/moq4) to show how that could be used for testing.
 
+## API Tests
+
+Added [Postman collection (v2.1 format)](https://github.com/Three97/20190427/blob/master/FMSystems_Tests.postman_collection.json) to repository. For information on importing this collection, see [Postman documentation](https://learning.getpostman.com/docs/postman/collections/sharing_collections/).
+
 > **NOTE:** This project is not intended to be production code. It's simply a proof of concept.
 
 _This code has been successfully tested on a Windows 10 Pro machine and a MacBook Pro._
