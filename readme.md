@@ -6,9 +6,9 @@
 
 ## To Run Locally
 
-Open `Fms.Jpf.Submission.sln` in Visual Studio 2017/9 and Run using IIS Express. It will be running at http://localhost:51836/api/locations. If you go this route, the only other change to make is to include your secret key for the [Dark Sky][DarkSky] API. See section [File Changes](#Angular-File-Changes).
+On Windows, open `Fms.Jpf.Submission.sln` in Visual Studio 2017/9 and Run using IIS Express. It will be running at http://localhost:51836/api/locations. If you go this route, the only other change to make is to include your secret key for the [Dark Sky][DarkSky] API. See section [File Changes](#Angular-File-Changes).
 
-Alternatively, you can navigate to the root directory of the API project on the command line, and run `dotnet run`. This will require one more change in the Angular file `location.service.ts`. Line 10 will need to be updated to `http://localhost:5000/api/locations`.
+Alternatively, (or on Mac/Linux) you can navigate to the root directory of the API project on the command line, and run `dotnet run`. This will require one more change in the Angular file `location.service.ts`. Line 10 will need to be updated to `https://localhost:5001/api/locations`.
 
 Navigate to `Fms.Jpf.Submission.UI/weather-history` and `npm install` to get all the client-side dependencies installed. Then run the Angular app by executing `ng serve` in the `weather-history` directory.
 
