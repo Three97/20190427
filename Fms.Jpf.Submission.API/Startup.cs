@@ -1,15 +1,16 @@
-﻿using Fms.Jpf.Submission.DAL.Contracts;
-using Fms.Jpf.Submission.DAL.Implementations;
-using Fms.Jpf.Submission.Service;
-using Fms.Jpf.Submission.Service.Contracts;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-
-namespace Fms.Jpf.Submission.API
+﻿namespace Fms.Jpf.Submission.API
 {
+    using Fms.Jpf.Submission.DAL.Contracts;
+    using Fms.Jpf.Submission.DAL.Implementations;
+    using Fms.Jpf.Submission.Service;
+    using Fms.Jpf.Submission.Service.Contracts;
+
+    using Microsoft.AspNetCore.Builder;
+    using Microsoft.AspNetCore.Hosting;
+    using Microsoft.AspNetCore.Mvc;
+    using Microsoft.Extensions.Configuration;
+    using Microsoft.Extensions.DependencyInjection;
+
     public class Startup
     {
         private readonly string _devOrigins = "DevOrigins";

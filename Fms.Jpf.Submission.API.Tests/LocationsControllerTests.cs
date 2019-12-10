@@ -1,13 +1,15 @@
-using System.Linq;
-using Fms.Jpf.Submission.API.Controllers;
-using Fms.Jpf.Submission.DAL.Contracts;
-using Fms.Jpf.Submission.DAL.Implementations;
-using Fms.Jpf.Submission.Service;
-using Fms.Jpf.Submission.Service.Contracts;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-
 namespace Fms.Jpf.Submission.API.Tests
 {
+    using System.Linq;
+
+    using Fms.Jpf.Submission.API.Controllers;
+    using Fms.Jpf.Submission.DAL.Contracts;
+    using Fms.Jpf.Submission.DAL.Implementations;
+    using Fms.Jpf.Submission.Service;
+    using Fms.Jpf.Submission.Service.Contracts;
+
+    using Microsoft.VisualStudio.TestTools.UnitTesting;
+
     [TestClass]
     public class LocationsControllerTests
     {

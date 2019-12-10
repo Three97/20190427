@@ -12,7 +12,7 @@ export class DarkSkyService {
   july4AtNoon = '2018-07-04T12:00:00';
 
   // secret key - specific to user...
-  secretKey = '[FILL_IN]';
+  secretKey = '[API_KEY]';
 
   constructor(private http: HttpClient) { }
 
@@ -27,10 +27,10 @@ export class DarkSkyService {
   }
 
   getUrl(key: string, lat: number, long: number, time: string) {
-    let url = this.urlMask.replace('[KEY]', key);
-    url = url.replace('[LAT]', lat.toString());
-    url = url.replace('[LONG]', long.toString());
-    url = url.replace('[TIME]', time.toString());
+    const url = this.urlMask.replace('[KEY]', key)
+                            .replace('[LAT]', lat.toString())
+                            .replace('[LONG]', long.toString())
+                            .replace('[TIME]', time.toString());
     return url;
   }
 }

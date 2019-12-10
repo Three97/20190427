@@ -1,10 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
-using Fms.Jpf.Submission.DAL.Models;
-using Fms.Jpf.Submission.Service.Contracts;
-
-namespace Fms.Jpf.Submission.API.Controllers
+﻿namespace Fms.Jpf.Submission.API.Controllers
 {
+    using Microsoft.AspNetCore.Mvc;
+    using System.Collections.Generic;
+
+    using Fms.Jpf.Submission.DAL.Models;
+    using Fms.Jpf.Submission.Service.Contracts;
+
     [Route("api/[controller]")]
     [Produces("application/json")]
     [ApiController]

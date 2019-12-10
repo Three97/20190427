@@ -1,14 +1,17 @@
-using System.Collections.Generic;
-using System.Linq;
-using Fms.Jpf.Submission.DAL.Contracts;
-using Fms.Jpf.Submission.DAL.Implementations;
-using Fms.Jpf.Submission.DAL.Models;
-using Fms.Jpf.Submission.Service.Contracts;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Moq;
-
 namespace Fms.Jpf.Submission.Service.Tests
 {
+    using System.Collections.Generic;
+    using System.Linq;
+
+    using Fms.Jpf.Submission.DAL.Contracts;
+    using Fms.Jpf.Submission.DAL.Implementations;
+    using Fms.Jpf.Submission.DAL.Models;
+    using Fms.Jpf.Submission.Service.Contracts;
+
+    using Microsoft.VisualStudio.TestTools.UnitTesting;
+
+    using Moq;
+
     /// <summary>
     /// Latitude and Longitude numbers pulled from https://www.latlong.net/
     /// These tests are pretty simple as the LocationService is simply pulling

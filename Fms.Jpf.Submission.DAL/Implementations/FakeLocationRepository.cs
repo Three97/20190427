@@ -1,9 +1,10 @@
-﻿using System.Collections.Generic;
-using Fms.Jpf.Submission.DAL.Contracts;
-using Fms.Jpf.Submission.DAL.Models;
-
-namespace Fms.Jpf.Submission.DAL.Implementations
+﻿namespace Fms.Jpf.Submission.DAL.Implementations
 {
+    using System.Collections.Generic;
+
+    using Fms.Jpf.Submission.DAL.Contracts;
+    using Fms.Jpf.Submission.DAL.Models;
+
     public class FakeLocationRepository : ILocationRepository
     {
         public IEnumerable<Location> GetAll()

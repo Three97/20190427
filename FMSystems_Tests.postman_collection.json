@@ -15,7 +15,7 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "https://api.darksky.net/forecast/b34b6528869b3cb626f1038d184dea35/33.448376,-112.074036,2018-07-04T12:00:00?exclude=minutely,hourly,daily,alerts,flags",
+					"raw": "https://api.darksky.net/forecast/[API_KEY]/33.448376,-112.074036,2018-07-04T12:00:00?exclude=minutely,hourly,daily,alerts,flags",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -24,7 +24,7 @@
 					],
 					"path": [
 						"forecast",
-						"b34b6528869b3cb626f1038d184dea35",
+						"[API_KEY]",
 						"33.448376,-112.074036,2018-07-04T12:00:00"
 					],
 					"query": [
@@ -47,7 +47,7 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "https://api.darksky.net/forecast/b34b6528869b3cb626f1038d184dea35/35.779591,-78.638176,2018-07-04T12:00:00?exclude=minutely,hourly,daily,alerts,flags",
+					"raw": "https://api.darksky.net/forecast/[API_KEY]/35.779591,-78.638176,2018-07-04T12:00:00?exclude=minutely,hourly,daily,alerts,flags",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -56,7 +56,7 @@
 					],
 					"path": [
 						"forecast",
-						"b34b6528869b3cb626f1038d184dea35",
+						"[API_KEY]",
 						"35.779591,-78.638176,2018-07-04T12:00:00"
 					],
 					"query": [
@@ -79,7 +79,7 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "https://api.darksky.net/forecast/b34b6528869b3cb626f1038d184dea35/45.272812,-66.063026,2018-07-04T12:00:00?exclude=minutely,hourly,daily,alerts,flags",
+					"raw": "https://api.darksky.net/forecast/[API_KEY]/45.272812,-66.063026,2018-07-04T12:00:00?exclude=minutely,hourly,daily,alerts,flags",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -88,7 +88,7 @@
 					],
 					"path": [
 						"forecast",
-						"b34b6528869b3cb626f1038d184dea35",
+						"[API_KEY]",
 						"45.272812,-66.063026,2018-07-04T12:00:00"
 					],
 					"query": [
@@ -111,7 +111,7 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "https://api.darksky.net/forecast/b34b6528869b3cb626f1038d184dea35/32.715736,-117.161087,2018-07-04T12:00:00?exclude=minutely,hourly,daily,alerts,flags",
+					"raw": "https://api.darksky.net/forecast/[API_KEY]/32.715736,-117.161087,2018-07-04T12:00:00?exclude=minutely,hourly,daily,alerts,flags",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -120,7 +120,7 @@
 					],
 					"path": [
 						"forecast",
-						"b34b6528869b3cb626f1038d184dea35",
+						"[API_KEY]",
 						"32.715736,-117.161087,2018-07-04T12:00:00"
 					],
 					"query": [

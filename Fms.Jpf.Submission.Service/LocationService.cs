@@ -1,11 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using Fms.Jpf.Submission.DAL.Contracts;
-using Fms.Jpf.Submission.DAL.Models;
-using Fms.Jpf.Submission.Service.Contracts;
-
-namespace Fms.Jpf.Submission.Service
+﻿namespace Fms.Jpf.Submission.Service
 {
+    using System.Collections.Generic;
+
+    using Fms.Jpf.Submission.DAL.Contracts;
+    using Fms.Jpf.Submission.DAL.Models;
+    using Fms.Jpf.Submission.Service.Contracts;
+
     public class LocationService : ILocationService
     {
         private readonly ILocationRepository _locationRepository;
